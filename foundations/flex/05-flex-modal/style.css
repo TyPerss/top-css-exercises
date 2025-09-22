@@ -20,6 +20,24 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px;
+}
+
+.modal-center-container {
+  padding: 0px 16px;
+}
+
+.header {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.text {
+  padding: 16px 0px;
+  font-size: 15px;
 }
 
 .icon {
@@ -31,6 +49,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex: 0 0 auto;
   align-items: center;
   justify-content: center;
 }
@@ -44,6 +63,7 @@ body {
   height: 24px;
   width: 24px;
   display: flex;
+  flex: 0 0 auto;
   align-items: center;
   justify-content: center;
   border: 1px solid #eee;
